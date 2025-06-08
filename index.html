@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <div id="container">
+        <canvas id="solar-system"></canvas>
+        <div id="controls">
+            <h2>Planet Speed Controls</h2>
+            <div class="control-group">
+                <label for="mercury">Mercury</label>
+                <input type="range" id="mercury" min="0" max="10" step="0.1" value="1">
+            </div>
+            <div class="control-group">
+                <label for="venus">Venus</label>
+                <input type="range" id="venus" min="0" max="10" step="0.1" value="1">
+            </div>
+            <div class="control-group">
+                <label for="earth">Earth</label>
+                <input type="range" id="earth" min="0" max="10" step="0.1" value="1">
+            </div>
+            <div class="control-group">
+                <label for="mars">Mars</label>
+                <input type="range" id="mars" min="0" max="10" step="0.1" value="1">
+            </div>
+            <div class="control-group">
+                <label for="jupiter">Jupiter</label>
+                <input type="range" id="jupiter" min="0" max="10" step="0.1" value="1">
+            </div>
+            <div class="control-group">
+                <label for="saturn">Saturn</label>
+                <input type="range" id="saturn" min="0" max="10" step="0.1" value="1">
+            </div>
+            <div class="control-group">
+                <label for="uranus">Uranus</label>
+                <input type="range" id="uranus" min="0" max="10" step="0.1" value="1">
+            </div>
+            <div class="control-group">
+                <label for="neptune">Neptune</label>
+                <input type="range" id="neptune" min="0" max="10" step="0.1" value="1">
+            </div>
+            <button id="pause-btn">Pause/Resume</button>
+            <button id="theme-toggle">Toggle Theme</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
