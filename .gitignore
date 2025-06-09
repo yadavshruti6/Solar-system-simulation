@@ -20,4 +20,30 @@ yarn-debug.log*
 yarn-error.log*
 
 # Dependencies
-node_modules/ 
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# System files
+desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# System files
+desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.backup
+*~ 
